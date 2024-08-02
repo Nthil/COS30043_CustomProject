@@ -1,0 +1,597 @@
+{
+  "banners": [
+    {
+      "image": "assets/home-banner (1).png",
+      "altText": "homepage-banner",
+      "id": "1a42"
+    },
+    {
+      "image": "assets/home-banner (2).png",
+      "altText": "homepage-banner",
+      "id": "feaf"
+    },
+    {
+      "image": "assets/home-banner (3).png",
+      "altText": "homepage-banner",
+      "id": "3b06"
+    }
+  ],
+  "products": [
+    {
+      "image": "assets/coffee-home.png",
+      "altText": "homepage-products",
+      "title": "Coffee",
+      "description": "Explore our new collection and find the perfect one for you",
+      "link": "/coffee",
+      "buttonText": "Learn more",
+      "id": "cf23"
+    },
+    {
+      "image": "assets/tea-home.png",
+      "altText": "homepage-products",
+      "title": "Tea",
+      "description": "Explore our new collection and find the perfect one for you",
+      "link": "/tea",
+      "buttonText": "Learn more",
+      "id": "0c0d"
+    },
+    {
+      "image": "assets/sweet-home.png",
+      "altText": "homepage-products",
+      "title": "Sweets",
+      "description": "Explore our new collection and find the perfect one for you",
+      "link": "/sweets",
+      "buttonText": "Learn more",
+      "id": "785d"
+    }
+  ],
+  "coffees": [
+    {
+      "id": "1",
+      "name": "Coffee 1",
+      "price": 10,
+      "image": "assets/coffee-1.png",
+      "altText": "coffee",
+      "ingredients": "Coffee beans, banana, milk",
+      "like": 21
+    },
+    {
+      "id": "2",
+      "name": "Coffee 2",
+      "price": 5,
+      "image": "assets/coffee-3.png",
+      "altText": "coffee",
+      "ingredients": "Coffee beans, sugar, jelly",
+      "like": 31
+    },
+    {
+      "id": "3",
+      "name": "Coffee 3",
+      "price": 4,
+      "image": "assets/coffee-2.png",
+      "altText": "coffee",
+      "ingredients": "Coffee beans, sugar, mix",
+      "like": 26
+    },
+    {
+      "id": "4",
+      "name": "Coffee 4",
+      "price": 25,
+      "image": "assets/coffee-4.png",
+      "altText": "coffee",
+      "ingredients": "Coffee beans, sugar-free, milk",
+      "like": 19
+    },
+    {
+      "id": "5",
+      "name": "Coffee 5",
+      "price": 10,
+      "image": "assets/coffee-3.png",
+      "altText": "coffee",
+      "ingredients": "Coffee beans, sugar, milk",
+      "like": 23
+    },
+    {
+      "id": "6",
+      "name": "Coffee 2",
+      "price": 8,
+      "image": "assets/coffee-1.png",
+      "altText": "coffee",
+      "ingredients": "Coffee beans, sugar, milk",
+      "like": 26
+    },
+    {
+      "id": "7",
+      "name": "Latte",
+      "price": 20,
+      "image": "assets/coffee-home.png",
+      "altText": "coffee",
+      "ingredients": "Coffee beans, sugar, milk",
+      "like": 20
+    },
+    {
+      "id": "8",
+      "name": "Espresso",
+      "price": 30,
+      "image": "assets/coffee-2.png",
+      "altText": "coffee",
+      "ingredients": "Coffee beans, sugar, milk",
+      "like": 25
+    },
+    {
+      "id": "9",
+      "name": "Arabica",
+      "price": 10,
+      "image": "assets/coffee-4.png",
+      "altText": "coffee",
+      "ingredients": "Coffee beans, sugar, milk",
+      "like": 22
+    },
+    {
+      "id": "10",
+      "name": "Americano",
+      "price": 45,
+      "image": "assets/coffee-3.png",
+      "altText": "coffee",
+      "ingredients": "Coffee beans, sugar, milk",
+      "like": 18
+    },
+    {
+      "id": "11",
+      "name": "Espresso",
+      "price": 40,
+      "image": "assets/coffee-2.png",
+      "altText": "coffee",
+      "ingredients": "Coffee beans, sugar, milk",
+      "like": 25
+    },
+    {
+      "id": "12",
+      "name": "Arabica",
+      "price": 25,
+      "image": "assets/coffee-4.png",
+      "altText": "coffee",
+      "ingredients": "Coffee beans, sugar, milk",
+      "like": 22
+    },
+    {
+      "id": "13",
+      "name": "Coffee 7",
+      "price": 25,
+      "image": "assets/coffee-1.png",
+      "altText": "coffee",
+      "ingredients": "Coffee beans, sugar, milk",
+      "like": 30
+    },
+    {
+      "id": "14",
+      "name": "Latte",
+      "price": 10,
+      "image": "assets/coffee-home.png",
+      "altText": "coffee",
+      "ingredients": "Coffee beans, sugar, milk",
+      "like": 20
+    },
+    {
+      "id": "15",
+      "name": "Americano",
+      "price": 15,
+      "image": "assets/coffee-3.png",
+      "altText": "coffee",
+      "ingredients": "Coffee beans, sugar, milk",
+      "like": 18
+    },
+    {
+      "id": "16",
+      "name": "Espresso",
+      "price": 20,
+      "image": "assets/coffee-2.png",
+      "altText": "coffee",
+      "ingredients": "Coffee beans, sugar, milk",
+      "like": 25
+    },
+    {
+      "id": "17",
+      "name": "Arabica",
+      "price": 25,
+      "image": "assets/coffee-4.png",
+      "altText": "coffee",
+      "ingredients": "Coffee beans, sugar, milk",
+      "like": 22
+    },
+    {
+      "id": "18",
+      "name": "Coffee 2",
+      "price": 10,
+      "image": "assets/coffee-1.png",
+      "altText": "coffee",
+      "ingredients": "Coffee beans, sugar, milk",
+      "like": 30
+    },
+    {
+      "id": "19",
+      "name": "Latte",
+      "price": 15,
+      "image": "assets/coffee-home.png",
+      "altText": "coffee",
+      "ingredients": "Coffee beans, sugar, milk",
+      "like": 20
+    },
+    {
+      "id": "20",
+      "name": "Americano",
+      "price": 20,
+      "image": "assets/coffee-3.png",
+      "altText": "coffee",
+      "ingredients": "Coffee beans, sugar, milk",
+      "like": 18
+    }
+  ],
+  "teas": [
+    {
+      "id": "1",
+      "name": "Green Tea",
+      "price": 10,
+      "image": "assets/tea-1.png",
+      "altText": "tea",
+      "ingredients": "Green tea leaves, honey",
+      "like": 20
+    },
+    {
+      "id": "2",
+      "name": "Black Tea",
+      "price": 12,
+      "image": "assets/tea-2.png",
+      "altText": "tea",
+      "ingredients": "Black tea leaves, lemon. sugar",
+      "like": 30
+    },
+    {
+      "id": "3",
+      "name": "Herbal Tea",
+      "price": 15,
+      "image": "assets/tea-3.png",
+      "altText": "tea",
+      "ingredients": "Herbal tea blend, mint, sugar",
+      "like": 25
+    },
+    {
+      "id": "4",
+      "name": "Chamomile Tea",
+      "price": 14,
+      "image": "assets/tea-4.png",
+      "altText": "tea",
+      "ingredients": "Chamomile flowers, lemon",
+      "like": 18
+    },
+    {
+      "id": "5",
+      "name": "Peppermint Tea",
+      "price": 13,
+      "image": "assets/tea-5.png",
+      "altText": "tea",
+      "ingredients": "Peppermint leaves, honey",
+      "like": 22
+    },
+    {
+      "id": "6",
+      "name": "Jasmine Tea",
+      "price": 16,
+      "image": "assets/tea-1.png",
+      "altText": "tea",
+      "ingredients": "Jasmine flowers, green tea leaves",
+      "like": 28
+    },
+    {
+      "id": "7",
+      "name": "Oolong Tea",
+      "price": 18,
+      "image": "assets/tea-2.png",
+      "altText": "tea",
+      "ingredients": "Oolong tea leaves, ginseng",
+      "like": 26
+    },
+    {
+      "id": "8",
+      "name": "White Tea",
+      "price": 17,
+      "image": "assets/tea-3.png",
+      "altText": "tea",
+      "ingredients": "White tea leaves, rose petals",
+      "like": 24
+    },
+    {
+      "id": "9",
+      "name": "Chai Tea",
+      "price": 15,
+      "image": "assets/tea-4.png",
+      "altText": "tea",
+      "ingredients": "Black tea leaves, spices, milk",
+      "like": 32
+    },
+    {
+      "id": "10",
+      "name": "Matcha Tea",
+      "price": 20,
+      "image": "assets/tea-5.png",
+      "altText": "tea",
+      "ingredients": "Matcha powder, water, milk",
+      "like": 35
+    },
+    {
+      "id": "11",
+      "name": "Lemon Ginger Tea",
+      "price": 14,
+      "image": "assets/tea-1.png",
+      "altText": "tea",
+      "ingredients": "Lemon, ginger, honey, hot-cold",
+      "like": 29
+    },
+    {
+      "id": "12",
+      "name": "Earl Grey Tea",
+      "price": 12,
+      "image": "assets/tea-2.png",
+      "altText": "tea",
+      "ingredients": "Black tea leaves, bergamot",
+      "like": 30
+    },
+    {
+      "id": "13",
+      "name": "Hibiscus Tea",
+      "price": 13,
+      "image": "assets/tea-3.png",
+      "altText": "tea",
+      "ingredients": "Hibiscus flowers, cinnamon",
+      "like": 27
+    },
+    {
+      "id": "14",
+      "name": "Rooibos Tea",
+      "price": 15,
+      "image": "assets/tea-4.png",
+      "altText": "tea",
+      "ingredients": "Rooibos leaves, vanilla, sugar",
+      "like": 23
+    },
+    {
+      "id": "15",
+      "name": "Lavender Tea",
+      "price": 17,
+      "image": "assets/tea-5.png",
+      "altText": "tea",
+      "ingredients": "Lavender flowers, chamomile",
+      "like": 21
+    }
+  ],
+  "sweetfoods": [
+    {
+      "id": "1",
+      "name": "Chocolate Cake",
+      "price": 25,
+      "image": "assets/sweet-1.png",
+      "altText": "sweet",
+      "ingredients": "Chocolate, flour, sugar, eggs",
+      "like": 30
+    },
+    {
+      "id": "2",
+      "name": "Cheesecake",
+      "price": 30,
+      "image": "assets/sweet-2.png",
+      "altText": "sweet",
+      "ingredients": "Cheese, sugar, eggs, graham crackers",
+      "like": 28
+    },
+    {
+      "id": "3",
+      "name": "Apple Pie",
+      "price": 20,
+      "image": "assets/sweet-3.png",
+      "altText": "sweet",
+      "ingredients": "Apples, flour, sugar, cinnamon",
+      "like": 25
+    },
+    {
+      "id": "4",
+      "name": "Brownies",
+      "price": 15,
+      "image": "assets/sweet-4.png",
+      "altText": "sweet",
+      "ingredients": "Chocolate, flour, sugar, eggs",
+      "like": 22
+    },
+    {
+      "id": "5",
+      "name": "Macarons",
+      "price": 18,
+      "image": "assets/sweet-5.png",
+      "altText": "sweet",
+      "ingredients": "Almond flour, sugar, egg whites",
+      "like": 20
+    },
+    {
+      "id": "6",
+      "name": "Cupcakes",
+      "price": 12,
+      "image": "assets/sweet-1.png",
+      "altText": "sweet",
+      "ingredients": "Flour, sugar, eggs, butter",
+      "like": 15
+    },
+    {
+      "id": "7",
+      "name": "Donuts",
+      "price": 10,
+      "image": "assets/sweet-2.png",
+      "altText": "sweet",
+      "ingredients": "Flour, sugar, yeast, milk",
+      "like": 18
+    },
+    {
+      "id": "8",
+      "name": "Eclairs",
+      "price": 22,
+      "image": "assets/sweet-3.png",
+      "altText": "sweet",
+      "ingredients": "Choux pastry, cream, chocolate",
+      "like": 25
+    },
+    {
+      "id": "9",
+      "name": "Tarts",
+      "price": 20,
+      "image": "assets/sweet-4.png",
+      "altText": "sweet",
+      "ingredients": "Pastry dough, fruit, cream",
+      "like": 30
+    },
+    {
+      "id": "10",
+      "name": "Pies",
+      "price": 24,
+      "image": "assets/sweet-5.png",
+      "altText": "sweet",
+      "ingredients": "Pie crust, filling, sugar",
+      "like": 28
+    }
+  ],
+  "user": [
+    {
+      "firstname": "John",
+      "lastname": "Doe",
+      "email": "john@example.com",
+      "password": "123456",
+      "confirmPassword": "123456",
+      "id": "0a09"
+    },
+    {
+      "firstname": "Alica",
+      "lastname": "Jane",
+      "email": "alice@example.com",
+      "password": "123456",
+      "confirmPassword": "123456",
+      "id": "cc3b"
+    },
+    {
+      "id": "0f63",
+      "firstname": "abc",
+      "lastname": "ab",
+      "email": "abc@gmail.com",
+      "password": "ab",
+      "confirmPassword": "ab",
+      "phonenum": "0916611659",
+      "phonenumbers": [
+        "123456",
+        "34567"
+      ],
+      "othercontacts": []
+    },
+    {
+      "id": "a41c",
+      "firstname": "aa",
+      "lastname": "aa",
+      "email": "aa@gmail.com",
+      "password": "aa",
+      "confirmPassword": "aa"
+    },
+    {
+      "id": "58f7",
+      "firstname": "d",
+      "lastname": "d",
+      "email": "d@gmail.com",
+      "password": "d",
+      "confirmPassword": "d"
+    },
+    {
+      "id": "696d",
+      "firstname": "ngathi",
+      "lastname": "ngathi",
+      "email": "ngathi@gmail.com",
+      "password": "1234",
+      "confirmPassword": "1234"
+    },
+    {
+      "id": "5354",
+      "firstname": "ngathi",
+      "lastname": "ngathi",
+      "email": "ngathi@gmail.com",
+      "password": "123",
+      "confirmPassword": "123"
+    },
+    {
+      "id": "75d1",
+      "firstname": "Abc",
+      "lastname": "abc",
+      "email": "abc@gmail.com",
+      "password": "abc",
+      "confirmPassword": "abc",
+      "phonenum": "",
+      "phonenumbers": [
+        "123456"
+      ],
+      "othercontacts": [
+        ""
+      ]
+    },
+    {
+      "id": "7160",
+      "firstname": "abc",
+      "lastname": "abc",
+      "email": "abc@gma8l.com",
+      "password": "abc",
+      "confirmPassword": "abc"
+    },
+    {
+      "id": "a611",
+      "firstname": "abc",
+      "lastname": "abc",
+      "email": "ac@gmail.com",
+      "password": "abc",
+      "confirmPassword": "abc"
+    },
+    {
+      "id": "ffc4"
+    },
+    {
+      "id": "d204",
+      "firstname": "ab",
+      "lastname": "ab",
+      "email": "ab@gmail.com",
+      "password": "ab",
+      "confirmPassword": "ab",
+      "phonenumbers": [
+        "1234"
+      ],
+      "othercontacts": [
+        "htps"
+      ]
+    }
+  ],
+  "blogs": [
+    {
+      "id": "e0e1",
+      "title": "aaa",
+      "content": "abc",
+      "userId": "d204"
+    },
+    {
+      "id": "e364",
+      "title": "a",
+      "content": "aa",
+      "userId": "d204"
+    },
+    {
+      "id": "2b60",
+      "title": "a",
+      "content": "a\n",
+      "userId": "d204"
+    },
+    {
+      "id": "d409",
+      "title": "ab",
+      "content": "a",
+      "userId": "0f63"
+    }
+  ]
+}
