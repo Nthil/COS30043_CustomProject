@@ -8,6 +8,7 @@
   <a href="#author">Author</a>  •
   <a href="#project-description">Project description</a>  •
   <a href="#installation">Installation</a>  •
+  <a href="#source-code">Source Code</a>  
 </p>
 
 ## Author
@@ -84,6 +85,9 @@ Dao Khanh Nga Thi
         }
       },
 
+## Source Code
+
+- You can download source code via this link (https://github.com/Nthil/COS30043_CustomProject)
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
