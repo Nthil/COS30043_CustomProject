@@ -49,7 +49,8 @@ Dao Khanh Nga Thi
   - Using npm to install Bootstrap
     - npm install bootstrap
   - Import boostrap CSS to Vue.js project in main.js file
-    - import 'bootstrap/dist/css/bootstrap.min.css'; 
+    - import 'bootstrap'
+    - import 'bootstrap/dist/css/bootstrap.min.css' 
 
 4. **Install Vue Router**
   - Vue Router link: [click here](https://router.vuejs.org/installation.html)
