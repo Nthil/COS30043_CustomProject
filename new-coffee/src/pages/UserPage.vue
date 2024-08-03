@@ -39,8 +39,8 @@
 import axios from 'axios';
 import UserView from '../components/UserView.vue';
 import UserSettings from '../components/UserSettings.vue';
-import DropAccount from '@/components/DropAccount.vue';
-import AddBlog from '@/components/AddBlog.vue';
+import DropAccount from '../components/DropAccount.vue';
+import AddBlog from '../components/AddBlog.vue';
 
 export default {
     name: 'ProfilePage',
@@ -78,6 +78,7 @@ export default {
     const userData = JSON.parse(localStorage.getItem('user-infor'));
     if (userData) {
         this.user.firstname = userData.firstname;
+        this.user.lastname = userData.lastname;
         this.fetchUserData(userData.id);
     }
     else {

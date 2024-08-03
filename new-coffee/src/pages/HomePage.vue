@@ -8,12 +8,12 @@
                     </div>
                 </div>
                 <div class="row align-items-center">
-                    <div class="col-12 product-banner">
+                    <div class="col-12">
                         <ProductBanner />
                     </div>
                 </div>
                 <div class="row align-items-center">
-                    <div class="col-4 card-deck" v-for="(product, index) in products" :key="index">
+                    <div class="col-4" v-for="(product, index) in products" :key="index">
                         <ProductsSection :product="product" />
                     </div>
                 </div>

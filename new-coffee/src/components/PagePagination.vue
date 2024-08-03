@@ -32,6 +32,6 @@
   </script>
   
   <style scoped>
-  /* Add your pagination styles here */
+
   </style>
   

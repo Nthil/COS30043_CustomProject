@@ -45,7 +45,7 @@ export default {
                 lastname: '',
                 email: '',
                 phonenumbers: [],
-                othercontact: ''
+                othercontacts: []
             },
         }
     },
@@ -56,6 +56,9 @@ export default {
                 this.user = response.data;
                 if (!this.user.phonenumbers) {
                     this.user.phonenumbers = [];
+                }
+                if (!this.user.othercontacts) {
+                    this.user.othercontacts = [];
                 }
             } catch (error) {
                 console.error('Error fetching user data:', error);
@@ -70,7 +73,7 @@ export default {
             this.user.lastname = userData.lastname;
             this.user.email = userData.email;
             this.user.phonenumbers = userData.phonenumbers || [];
-            this.user.othercontact = userData.othercontact;
+            this.user.othercontacts = userData.othercontacts || [];
 
             // Fetch user data based on the retrieved user ID
             this.fetchUserData(userData.id);
