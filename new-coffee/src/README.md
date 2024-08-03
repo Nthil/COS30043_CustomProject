@@ -60,9 +60,9 @@ Dao Khanh Nga Thi
     - src/router.js
   - Configure Routes in 'router.js':
     - import { createRouter, createWebHistory } from 'vue-router';
-      import Home from '../views/Home.vue'; 
+      import Home from '../pages/HomePage.vue'; 
     - const routes = [
-      { path: '/', component: Home },
+      { path: '/', component: HomePage },
       ];
     - const router = createRouter({
       history: createWebHistory(process.env.BASE_URL),
