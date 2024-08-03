@@ -7,7 +7,7 @@
 <p align="center">
   <a href="#author">Author</a>  •
   <a href="#project-description">Project description</a>  •
-  <a href="#installation">Installation</a>  •
+  <a href="#installation">Set up and Package Installation</a>  •
   <a href="#source-code">Source Code</a>  
 </p>
 
@@ -19,7 +19,7 @@ Dao Khanh Nga Thi
 
 <p align="justify">Based on the knowledge acquired throughout the semester, I applied practical experience and researched additional references to design and implement a custom e-commerce project—a website for selling coffee, tea, and sweets—using the Bootstrap and Vue.js frameworks.</p>
 
-## Installation
+## Set up and Package Installation
 
 1. **Node.js and npm set up**
   - Go to: https://nodejs.org/en/download/ to download and install node.js
@@ -33,6 +33,8 @@ Dao Khanh Nga Thi
 
 
 2. **Create VueCLI Project**
+  - Install Vue CLI globally using:
+    - npm install -g @vue/cli
   - Open terminal and cd to the folder where you want to create the project
     - cd /path/to/your/folder
   - Type the following command to create new vue project
