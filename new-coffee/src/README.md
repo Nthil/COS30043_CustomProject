@@ -33,6 +33,7 @@ Dao Khanh Nga Thi
 
 
 2. **Create VueCLI Project**
+  - Bootstrap link: [click here](https://cli.vuejs.org/#getting-started)
   - Open terminal and cd to the folder where you want to create the project
     - cd /path/to/your/folder
   - Type the following command to create new vue project
@@ -44,12 +45,14 @@ Dao Khanh Nga Thi
     - npm run serve
 
 3. **Intergrate Bootstrap to Vue project**
+  - Bootstrap link: [click here](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
   - Using npm to install Bootstrap
     - npm install bootstrap
   - Import boostrap CSS to Vue.js project in main.js file
     - import 'bootstrap/dist/css/bootstrap.min.css'; 
 
 4. **Install Vue Router**
+  - Vue Router link: [click here](https://router.vuejs.org/installation.html)
   - Using npm to install Vue Router
     - npm install vue-router 
   - Create 'router.js' file in 'src' folder: 
@@ -71,6 +74,7 @@ Dao Khanh Nga Thi
   - Use router-view in App Component
 
 5. **Install Axios**
+  - Axios link: [click here](https://axios-http.com/docs/intro)
   - Using npm to install Axios
     - npm install axios
   - Import axios in any component 
