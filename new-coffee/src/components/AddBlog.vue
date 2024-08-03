@@ -51,7 +51,7 @@ export default {
                 content: ''
             },
             error: {},
-            blogs: [] 
+            blogs: [] // Array to hold the user's blogs
         }
     },
     methods: {
@@ -80,17 +80,31 @@ export default {
                         userId: userData.id
                     });
 
+                    // Refresh the blog list after adding a new blog
                     this.fetchUserBlogs();
                     alert('Blog added successfully!');
                     this.form.title = '';
                     this.form.content = '';
                 } else {
+                    alert('User data not found. Please log in.');
                     this.$router.push('/signin');
                 }
             } catch (error) {
                 console.error('Error adding blog:', error);
+                alert('There was an error adding your blog. Please try again.');
             }
         },
+        async fetchUserBlogs() {
+            try {
+                const userData = JSON.parse(localStorage.getItem('user-infor'));
+                if (userData && userData.id) {
+                    const response = await axios.get(`http://localhost:3000/blogs?userId=${userData.id}`);
+                    this.blogs = response.data;
+                }
+            } catch (error) {
+                console.error('Error fetching user blogs:', error);
+            }
+        }
     },
     mounted() {
         this.fetchUserBlogs();

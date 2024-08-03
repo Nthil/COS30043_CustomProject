@@ -18,8 +18,8 @@
                             </div>
                             <div class="form-group">
                                 <label for="email">Email</label>
-                                <span class="input-group-text">{{ user.email }}</span>
-                                <!-- <small class="text-danger" v-if="errors.email">{{ errors.email }}</small> -->
+                                <span class="input-group-text">{{user.email}}</span>
+                                <small class="text-danger" v-if="errors.email">{{ errors.email }}</small>
                             </div>
                             <br>
                             <div class="d-inline-flex gap-1">
@@ -32,31 +32,29 @@
                             <div class="collapse mt-2" id="collapseExample">
                                 <div class="card card-body">
                                     <div class="form-group">
-                                        <button class="btn btn-primary new-field" @click.prevent="addPhoneNumber">Add
-                                            Phone Number</button>
+                                        <button class="btn btn-primary new-field"
+                                            @click.prevent="addPhoneNumber">Add Phone Number</button>
                                     </div>
                                     <div v-for="(phone, index) in user.phonenumbers" :key="index" class="form-group">
                                         <button class="btn btn-danger new-field"
                                             @click.prevent="deletePhoneNumber(index)">X</button>
                                         <label :for="'phonenum-' + index">Phone Number</label>
-                                        <input type="text" class="form-control input-field" :id="'phonenum-' + index"
-                                            v-model="user.phonenumbers[index]">
-                                        <small class="text-danger" v-if="errors.phonenumbers[index]">{{
-                                            errors.phonenumbers[index] }}</small>
+                                        <input type="text" class="form-control input-field"
+                                            :id="'phonenum-' + index" v-model="user.phonenumbers[index]">
+                                        <small class="text-danger" v-if="errors.phonenumbers[index]">{{ errors.phonenumbers[index] }}</small>
                                     </div>
 
                                     <div class="form-group">
-                                        <button class="btn btn-primary new-field" @click.prevent="addOtherContact">Add
-                                            Other Contact</button>
+                                        <button class="btn btn-primary new-field"
+                                            @click.prevent="addOtherContact">Add Other Contact</button>
                                     </div>
                                     <div v-for="(contact, index) in user.othercontacts" :key="index" class="form-group">
                                         <button class="btn btn-danger new-field"
                                             @click.prevent="deleteOtherContact(index)">X</button>
                                         <label :for="'othercontact-' + index">Other Contact</label>
-                                        <input type="text" class="form-control input-field" :id="'othercontact-' + index" 
-                                            v-model="user.othercontacts[index]">
-                                        <small class="text-danger" v-if="errors.othercontacts[index]">{{
-                                            errors.othercontacts[index] }}</small>
+                                        <input type="text" class="form-control input-field"
+                                            :id="'othercontact-' + index" v-model="user.othercontacts[index]">
+                                        <small class="text-danger" v-if="errors.othercontacts[index]">{{ errors.othercontacts[index] }}</small>
                                     </div>
                                 </div>
                             </div>
@@ -85,9 +83,11 @@ export default {
                 phonenumbers: [],
                 othercontacts: []
             },
+            showOthercontact: false,
             errors: {
                 firstname: '',
                 lastname: '',
+                email: '',
                 phonenumbers: [],
                 othercontacts: []
             }
@@ -113,6 +113,7 @@ export default {
             this.errors = {
                 firstname: '',
                 lastname: '',
+                email: '',
                 phonenumbers: [],
                 othercontacts: []
             };
@@ -125,15 +126,16 @@ export default {
                 this.errors.lastname = 'Last Name is required.';
                 isValid = false;
             }
+            if (!this.user.email) {
+                this.errors.email = 'Email is required.';
+                isValid = false;
+            }
 
             // Validate phone numbers
             const phoneNumbersSet = new Set();
             this.user.phonenumbers.forEach((phone, index) => {
                 if (!phone) {
                     this.errors.phonenumbers[index] = 'Phone number cannot be empty.';
-                    isValid = false;
-                } else if (!/^\d+$/.test(phone)) {
-                    this.errors.phonenumbers[index] = 'Phone number must be numeric.';
                     isValid = false;
                 } else if (phoneNumbersSet.has(phone)) {
                     this.errors.phonenumbers[index] = 'Phone Number already exists.';

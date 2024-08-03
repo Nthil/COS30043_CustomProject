@@ -78,7 +78,7 @@ export default {
             this.form.isValid = true;
             this.error = {};
 
-            
+            // Validate form input
             if (this.form.firstname == '') {
                 this.error.firstname = 'First name is missing';
                 this.form.isValid = false;
@@ -118,14 +118,14 @@ export default {
 
             if (!this.form.isValid) return;
 
-            
+            // Check if the email already exists
             const isExist = user.data.find(u => u.email === this.form.email);
             if (isExist) {
                 this.error.email = 'Email already exists';
                 return;
             }
 
-            
+            // If validation passes, submit the form
             const result = await axios.post('http://localhost:3000/user', {
                 firstname: this.form.firstname,
                 lastname: this.form.lastname,
@@ -134,14 +134,13 @@ export default {
                 confirmPassword: this.form.confirmPassword
             });
 
-            
+            // Check if the response is successful
             if (result.status == 201) {
                 localStorage.setItem("user-infor", JSON.stringify(result.data));
                 this.$router.push({ name: 'home' });
             }
         }
     },
-    // For user who is already logged in
     mounted() {
         let user = JSON.parse(localStorage.getItem("user-infor"));
         if (user) {

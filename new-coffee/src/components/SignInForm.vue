@@ -55,8 +55,8 @@ export default {
                     let user = response.data.find(user => user.email === this.email);
                     if (user && user.password === this.password) {
                         this.$router.push('/homepage');
-                        this.$emit('emailSubmitted', this.email); 
-                        localStorage.setItem("user-infor", JSON.stringify(user)); 
+                        this.$emit('emailSubmitted', this.email); // Emit email to parent component
+                        localStorage.setItem("user-infor", JSON.stringify(user)); // Optionally store user info in localStorage
                         console.log(response);
                     } else {
                         alert('Invalid email or password. Please try again.');

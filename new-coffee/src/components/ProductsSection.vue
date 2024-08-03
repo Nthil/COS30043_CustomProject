@@ -18,10 +18,10 @@ const images = require.context('@/assets', false, /\.png$/)
 export default {
     props: ['product'],
     methods: {
-        getImage(image) {
-            return images('./' + image.split('/').pop())
-        }
+    getImage(image) {
+      return images('./' + image.split('/').pop())
     }
+}
 }
 </script>
 <style scoped>
