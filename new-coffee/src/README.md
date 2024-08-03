@@ -33,8 +33,6 @@ Dao Khanh Nga Thi
 
 
 2. **Create VueCLI Project**
-  - Install Vue CLI globally using:
-    - npm install -g @vue/cli
   - Open terminal and cd to the folder where you want to create the project
     - cd /path/to/your/folder
   - Type the following command to create new vue project
